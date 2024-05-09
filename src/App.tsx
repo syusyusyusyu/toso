@@ -24,11 +24,11 @@ const App = () => {
           );
         })}
       </div>
-      <EnhancedSwipeableViews enableMouseEvents>
+      {/* <EnhancedSwipeableViews enableMouseEvents>
       <div className="slide">あああああ</div>
       <div className="slide">いいいいい</div>
       <div className="slide">ううううう</div>
-      </EnhancedSwipeableViews>
+      </EnhancedSwipeableViews> */}
       <Footer />
     </div>
   );
