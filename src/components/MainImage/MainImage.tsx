@@ -6,7 +6,7 @@ const MainImage = () => {
         <section>
             <div className={styles.main_image}>
                 <h1 className={styles.title}>
-                    ITクリエイト部
+                <img src={process.env.PUBLIC_URL + '/images/logo1outline.png'} alt="Logo" />
                 </h1>
                 <div className={styles.pic_down}></div>
             </div>
