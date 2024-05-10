@@ -36,6 +36,10 @@
   transform: rotate(135deg);
 }
 
+.logo {
+  width: 600px; /* ロゴ画像サイズ */
+}
+
 @keyframes picdown {
   /*タイプライターライクなアニメーション*/
   0% {
@@ -43,5 +47,11 @@
   }
   100% {
     transform: translateY(20px);
+  }
+}
+
+@media screen and (max-width: 481px) {
+  .logo {
+    width: 600px; /* ロゴ画像サイズ */
   }
 }
