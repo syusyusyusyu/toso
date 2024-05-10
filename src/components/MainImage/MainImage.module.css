@@ -52,6 +52,6 @@
 
 @media screen and (max-width: 481px) {
   .logo {
-    width: 200px; /* ロゴ画像サイズ */
+    width: 300px; /* ロゴ画像サイズ */
   }
 }
