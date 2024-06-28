@@ -40,10 +40,6 @@
   width: 600px; /* ロゴ画像サイズ */
 }
 
-.name{
-  
-}
-
 @keyframes picdown {
   /*タイプライターライクなアニメーション*/
   0% {
@@ -55,7 +51,7 @@
 }
 
 @media screen and (max-width: 481px) {
-  .logo {
-    width: 300px; /* ロゴ画像サイズ */
+  .title {
+    font-size: 2em;
   }
 }
