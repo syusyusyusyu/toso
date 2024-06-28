@@ -4,7 +4,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url("../../img/mv_bg01.jpg");
+  background-image: url("../../img/IMG_3611.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -38,6 +38,10 @@
 
 .logo {
   width: 600px; /* ロゴ画像サイズ */
+}
+
+.name{
+  
 }
 
 @keyframes picdown {

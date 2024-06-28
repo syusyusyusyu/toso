@@ -1,17 +1,17 @@
 [
     {
-      "title": "勉強会",
-      "description": "GitHub や C 言語など IT 分野をメインに学内で勉強会を開催しています。部員がメンターとして参加することで新たなる技術を学ぶきっかけにもなります。",
-      "imagePath": "./images/activities_img01.jpg"
+      "title": "逃走中との出会い",
+      "description": "5歳の頃に放送されたジャンプ！〇〇中を見て釘付け！以降どんな用事があろうと欠かさずリアルタイム視聴",
+      "imagePath": "./images/IMG_3608.png"
     },
     {
-      "title": "メディアフロンティア",
-      "description": "2 月に OIC で開催される学生作品展です。第 15 回より教室を 1 つお借りして ITC ブースを出しております。業界の方々や一般の方に見ていただける 1 年の集大成となるイベントです。",
-      "imagePath": "./images/activities_img03.jpg"
+      "title": "支え",
+      "description": "幼少期からの難病で何もできなかった人生を支えてくれたのが逃走中の存在です。回復した今逃走成功を果たして一つの成功体験を掴みたい！",
+      "imagePath": "./images/IMG_3609.png"
     },
     {
-      "title": "学生スタッフ",
-      "description": "カンファレンスなどに学生スタッフとして参加し、現場のエンジニア達と一緒にイベント運営をすることで、現場の技術や雰囲気を学んでいます。",
-      "imagePath": "./images/activities_img005.jpg"
+      "title": "3000時間プレイ",
+      "description": "『逃走中 史上最強のハンターたちからにげきれ』は発売から遊び続け、そのプレイ時間は12年間で3000時間を突破！！",
+      "imagePath": "./images/IMG_3610.png"
     }
   ]
