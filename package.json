@@ -53,5 +53,10 @@
   },
   "devDependencies": {
     "@types/react-swipeable-views": "^0.13.5"
-  }
+  },
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
 }

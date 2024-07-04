@@ -1,0 +1,20 @@
+.footer {
+  width: 100%;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: #ccc;
+}
+
+.link {
+  color: black;
+  letter-spacing: 1px;
+  text-decoration: none;
+}
+
+.icon {
+  font-size: 50px; /* アイコンのサイズを大きくする */
+  margin-right: 10px; /* アイコンの右側にマージンを追加 */
+}
