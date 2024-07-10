@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "./Card.css";
+import styles from "./Card.module.css";
 import InViewMonitor from "react-inview-monitor";
 
 const Card = (props) => {

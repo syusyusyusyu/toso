@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "./MainImage.css";
+import styles from "./MainImage.module.css";
 
 const MainImage = () => {
     return (
