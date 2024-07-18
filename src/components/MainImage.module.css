@@ -14,10 +14,10 @@
 
 .title {
   color: #fff;
-  font-size: 3em;
+  font-size: 2.5em;
   padding: 2%;
   border-radius: 15px;
-  text-align: center; /* Add this line to center align the text */
+  text-align: center; 
 }
 
 .logo {
@@ -36,6 +36,6 @@
 
 @media screen and (max-width: 481px) {
   .title {
-    font-size: 2em;
+    font-size: 1.5em;
   }
 }

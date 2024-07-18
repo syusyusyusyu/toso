@@ -5,17 +5,17 @@ $password = "pw4testuser";
 $dbname = "testdb";
 
 // MySQL 接続の作成
-$conn = new mysqli($servername, $username, $password, $dbname);
+$setu = new mysqli($servername, $username, $password, $dbname);
 
 // 接続確認
-if ($conn->connect_error) {
-    die("接続失敗: " . $conn->connect_error);
+if ($setu -> connect_error) {
+    die("接続失敗: " . $setu -> connect_error);
 }
 
 // データ受け取りの確認
-$name = isset($_POST['name']) ? $conn->real_escape_string($_POST['name']) : '';
-$email = isset($_POST['email']) ? $conn->real_escape_string($_POST['email']) : '';
-$message = isset($_POST['message']) ? $conn->real_escape_string($_POST['message']) : '';
+$name = isset($_POST['name']) ? $setu->real_escape_string($_POST['name']) : '';
+$email = isset($_POST['email']) ? $setu->real_escape_string($_POST['email']) : '';
+$message = isset($_POST['message']) ? $setu->real_escape_string($_POST['message']) : '';
 
 if (empty($name) || empty($email) || empty($message)) {
     die("データが正しく受け取れませんでした: Name=$name, Email=$email, Message=$message");
@@ -23,11 +23,11 @@ if (empty($name) || empty($email) || empty($message)) {
 
 $sql = "INSERT INTO shu (name, email, message) VALUES ('$name', '$email', '$message')";
 
-if ($conn->query($sql) === TRUE) {
+if ($setu ->query($sql) === TRUE) {
     echo "新しいレコードが作成されました";
 } else {
-    echo "エラー: " . $sql . "<br>" . $conn->error;
+    echo "エラー: " . $sql . "<br>" . $setu->error;
 }
 
-$conn->close();
+$setu -> close();
 ?>
