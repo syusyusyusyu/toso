@@ -11,9 +11,6 @@ const Footer = () => {
                         <FaTwitter className={styles.icon} />
                     </a>
                 </div>
-                <p>
-                    &copy;2024 Shu Yoshida 
-                </p>
             </small>
         </footer>
     );
