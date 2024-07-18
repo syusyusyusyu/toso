@@ -13,7 +13,7 @@ const Card = (props) => {
                     <InViewMonitor classNameNotInView='hidden' classNameInView='animate__animated animate__fadeInRight slower'>
                         <h1 className={styles.title}>{props.title}</h1>
                     </InViewMonitor>
-                    <InViewMonitor classNameNotInView='hidden' classNameInView='animate__animated animate__fadeInUp slower'>
+                    <InViewMonitor classNameNotInView='hidden' classNameInView='animate__animated animate__fadeInRight slower'>
                         <p className={styles.text}>{props.description}</p>
                     </InViewMonitor>
                 </div>

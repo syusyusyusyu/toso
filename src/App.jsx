@@ -5,7 +5,9 @@ import data from "./data.json";
 
 import MainImage from "./components/MainImage";
 import Card from "./components/Card";
+import ContactForm from "./components/ContactForm"; 
 import Footer from "./components/Footer";
+import InViewMonitor from "react-inview-monitor";
 
 const App = () => {
   return (
@@ -22,6 +24,11 @@ const App = () => {
             />
           );
         })}
+      </div>
+      <div className="formContainer">
+        <InViewMonitor classNameNotInView='hidden' classNameInView='animate__animated animate__fadeInLeft slower'>
+          <ContactForm/> 
+        </InViewMonitor>
       </div>
       <Footer />
     </div>
