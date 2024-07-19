@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/toso/static/css/main.7a45bb3b.chunk.css",
+    "main.css": "/toso/static/css/main.90caae8a.chunk.css",
     "main.js": "/toso/static/js/main.9137c257.chunk.js",
     "main.js.map": "/toso/static/js/main.9137c257.chunk.js.map",
     "runtime-main.js": "/toso/static/js/runtime-main.b2873659.js",
@@ -12,7 +12,7 @@
     "static/js/3.13b6b164.chunk.js.map": "/toso/static/js/3.13b6b164.chunk.js.map",
     "index.html": "/toso/index.html",
     "static/css/2.276ef6a7.chunk.css.map": "/toso/static/css/2.276ef6a7.chunk.css.map",
-    "static/css/main.7a45bb3b.chunk.css.map": "/toso/static/css/main.7a45bb3b.chunk.css.map",
+    "static/css/main.90caae8a.chunk.css.map": "/toso/static/css/main.90caae8a.chunk.css.map",
     "static/js/2.63fe96a0.chunk.js.LICENSE.txt": "/toso/static/js/2.63fe96a0.chunk.js.LICENSE.txt",
     "static/media/MainImage.module.css": "/toso/static/media/IMG_3611.a4cd7720.png"
   },
@@ -20,7 +20,7 @@
     "static/js/runtime-main.b2873659.js",
     "static/css/2.276ef6a7.chunk.css",
     "static/js/2.63fe96a0.chunk.js",
-    "static/css/main.7a45bb3b.chunk.css",
+    "static/css/main.90caae8a.chunk.css",
     "static/js/main.9137c257.chunk.js"
   ]
 }

@@ -8,8 +8,8 @@ $dbname = "testdb";
 $setu = new mysqli($servername, $username, $password, $dbname);
 
 // 接続確認
-if ($setu -> connect_error) {
-    die("接続失敗: " . $setu -> connect_error);
+if ($setu->connect_error) {
+    die("接続失敗: " . $setu->connect_error);
 }
 
 // データ受け取りの確認
@@ -23,11 +23,11 @@ if (empty($name) || empty($email) || empty($message)) {
 
 $sql = "INSERT INTO shu (name, email, message) VALUES ('$name', '$email', '$message')";
 
-if ($setu ->query($sql) === TRUE) {
+if ($setu->query($sql) === TRUE) {
     echo "新しいレコードが作成されました";
 } else {
     echo "エラー: " . $sql . "<br>" . $setu->error;
 }
 
-$setu -> close();
+$setu->close();
 ?>
