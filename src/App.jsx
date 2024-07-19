@@ -2,17 +2,27 @@ import React from "react";
 import "./App.css";
 import "animate.css/animate.css";
 import data from "./data.json";
-
-import MainImage from "./components/MainImage";
 import Card from "./components/Card";
 import ContactForm from "./components/ContactForm"; 
-import Footer from "./components/Footer";
 import InViewMonitor from "react-inview-monitor";
+import { FaTwitter } from "react-icons/fa";
 
 const App = () => {
   return (
     <div className="App">
-      <MainImage />
+       <section>
+            <div className="main_image">
+            <InViewMonitor classNameNotInView='hidden' classNameInView='animate__animated animate__fadeInRight slower'>
+                <h1 className="title">
+                    <p style={{textAlign:'left'}}>
+                        名前：吉田 柊（よしだ しゅう）<br />
+                        年齢：22歳（専門学生）<br />
+                        出身：奈良県
+                    </p>
+                </h1>
+            </InViewMonitor>
+            </div>
+        </section>
       <div className="card">
         {data.map((item, index) => {
           return (
@@ -30,7 +40,15 @@ const App = () => {
           <ContactForm/> 
         </InViewMonitor>
       </div>
-      <Footer />
+      <footer className="footer">
+            <small>
+                <div>
+                    <a href="https://twitter.com/hiiraagii" target="_blank" rel="noreferrer">
+                        <FaTwitter className="icon" />
+                    </a>
+                </div>
+            </small>
+        </footer>
     </div>
   );
 };
