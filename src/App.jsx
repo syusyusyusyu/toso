@@ -13,7 +13,7 @@ const App = () => {
        <section>
             <div className="main_image">
             <InViewMonitor classNameNotInView='hidden' classNameInView='animate__animated animate__fadeInRight slower'>
-                <h1 className="title">
+                <h1 className="title1">
                     <p style={{textAlign:'left'}}>
                         名前：吉田 柊（よしだ しゅう）<br />
                         年齢：22歳（専門学生）<br />

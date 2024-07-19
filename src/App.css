@@ -17,11 +17,10 @@
   background-size: cover;
 }
 
-.title {
+.title1 {
   color: #fff;
   font-size: 2.5em; /* タイトルの文字サイズ */
   text-align: center; 
-  background-color: #fff; /* タイトルの背景色 */
 }
 
 @keyframes picdown {
