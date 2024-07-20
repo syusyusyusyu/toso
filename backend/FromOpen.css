@@ -1,0 +1,20 @@
+/* CSS for the output */
+.result {
+    margin-bottom: 10px;
+}
+
+.result .id {
+    font-weight: bold;
+}
+
+.result .name {
+    color: blue;
+}
+
+.result .email {
+    color: green;
+}
+
+.result .message {
+    font-style: italic;
+}

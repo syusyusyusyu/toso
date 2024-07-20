@@ -12,9 +12,23 @@ if ($setu->connect_error) {
     die("接続失敗: " . $setu->connect_error);
 }
 
-// データ受け取りの確認
-$name = isset($_POST['name']) ? $setu->real_escape_string($_POST['name']) : ''; 
-$email = isset($_POST['email']) ? $setu->real_escape_string($_POST['email']) : '';
-$message = isset($_POST['message']) ? $setu->real_escape_string($_POST['message']) : '';
+//レコードを全て画面に表示
+$sql = "SELECT * FROM shu";
+$result = $setu->query($sql);
 
+if ($result->num_rows > 0) {
+    // データを1行ずつ出力
+    while($row = $result->fetch_assoc()) {
+        echo '<div class="result">';
+        echo '<span class="id">' . $row["id"] . '</span> - ';
+        echo 'Name：<span class="name">' . $row["name"] . '</span> - ';
+        echo 'Email：<span class="email">' . $row["email"] . '</span> - ';
+        echo 'Message：<span class="message">' . $row["message"] . '</span>';
+        echo '</div>';
+    }
+} else {
+    echo "0 件の結果";
+}
+
+$setu->close();
 ?>
