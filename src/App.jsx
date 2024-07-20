@@ -2,10 +2,9 @@ import React from "react";
 import "./App.css";
 import "animate.css/animate.css";
 import data from "./data.json";
-import Card from "./components/Card";
+import Menu from "./components/Menu";
 import ContactForm from "./components/ContactForm"; 
 import InViewMonitor from "react-inview-monitor";
-import { FaTwitter } from "react-icons/fa";
 
 const App = () => {
   return (
@@ -23,10 +22,10 @@ const App = () => {
             </InViewMonitor>
             </div>
         </section>
-      <div className="card">
+      <div className="menu">
         {data.map((item, index) => {
           return (
-            <Card
+            <Menu
               title={item.title}
               description={item.description}
               imagePath={item.imagePath}
@@ -40,15 +39,6 @@ const App = () => {
           <ContactForm/> 
         </InViewMonitor>
       </div>
-      <footer className="footer">
-            <small>
-                <div>
-                    <a href="https://twitter.com/hiiraagii" target="_blank" rel="noreferrer">
-                        <FaTwitter className="icon" />
-                    </a>
-                </div>
-            </small>
-        </footer>
     </div>
   );
 };

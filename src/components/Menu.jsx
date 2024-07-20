@@ -1,8 +1,8 @@
 import React from "react";
-import "./Card.css";
+import "./Menu.css";
 import InViewMonitor from "react-inview-monitor";
 
-const Card = (props) => {
+const Menu = (props) => {
     return (
         <section className="contents">
             <div className="inner">
@@ -22,5 +22,5 @@ const Card = (props) => {
     );
 };
 
-export default Card;
+export default Menu;
 
