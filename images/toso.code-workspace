@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"name": "toso",
+			"path": ".."
+		},
+		{
+			"name": "images",
+			"path": "../../../../Users/kinon/OneDrive/デスクトップ/逃走中/images"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "toso",
+		"liveServer.settings.port": 5501
+	}
+}

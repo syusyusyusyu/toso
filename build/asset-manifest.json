@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/toso/static/css/main.ea657786.chunk.css",
+    "main.js": "/toso/static/js/main.a11f9909.chunk.js",
+    "main.js.map": "/toso/static/js/main.a11f9909.chunk.js.map",
+    "runtime-main.js": "/toso/static/js/runtime-main.dca8f1d0.js",
+    "runtime-main.js.map": "/toso/static/js/runtime-main.dca8f1d0.js.map",
+    "static/css/2.276ef6a7.chunk.css": "/toso/static/css/2.276ef6a7.chunk.css",
+    "static/js/2.398e5cc8.chunk.js": "/toso/static/js/2.398e5cc8.chunk.js",
+    "static/js/2.398e5cc8.chunk.js.map": "/toso/static/js/2.398e5cc8.chunk.js.map",
+    "static/js/3.0802126d.chunk.js": "/toso/static/js/3.0802126d.chunk.js",
+    "static/js/3.0802126d.chunk.js.map": "/toso/static/js/3.0802126d.chunk.js.map",
+    "index.html": "/toso/index.html",
+    "static/css/2.276ef6a7.chunk.css.map": "/toso/static/css/2.276ef6a7.chunk.css.map",
+    "static/css/main.ea657786.chunk.css.map": "/toso/static/css/main.ea657786.chunk.css.map",
+    "static/js/2.398e5cc8.chunk.js.LICENSE.txt": "/toso/static/js/2.398e5cc8.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/toso/static/media/IMG_3611.a4cd7720.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.dca8f1d0.js",
+    "static/css/2.276ef6a7.chunk.css",
+    "static/js/2.398e5cc8.chunk.js",
+    "static/css/main.ea657786.chunk.css",
+    "static/js/main.a11f9909.chunk.js"
+  ]
+}
