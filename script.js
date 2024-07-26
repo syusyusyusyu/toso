@@ -12,30 +12,30 @@ function App() {
 function Menu(parent) {
     const data = [
         {
-            title: "逃走中との出会い",
-            text: "5歳の頃に放送されたジャンプ！〇〇中を見て釘付け！以降どんな用事があろうと欠かさずリアルタイム視聴",
-            imagePath: "./images/IMG_3608.png"
+            ttl: "逃走中との出会い",
+            txt: "5歳の頃に放送されたジャンプ！〇〇中を見て釘付け！以降どんな用事があろうと欠かさずリアルタイム視聴",
+            imgPath: "./images/IMG_3608.png"
         },
         {
-            title: "支え",
-            text: "幼少期からの難病で何もできなかった人生を支えてくれたのが逃走中の存在です。回復した今逃走成功を果たして一つの成功体験を掴みたい！",
-            imagePath: "./images/IMG_3609.png"
+            ttl: "支え",
+            txt: "幼少期からの難病で何もできなかった人生を支えてくれたのが逃走中の存在です。回復した今逃走成功を果たして一つの成功体験を掴みたい！",
+            imgPath: "./images/IMG_3609.png"
         },
         {
-            title: "3000時間プレイ",
-            text: "『逃走中 史上最強のハンターたちからにげきれ』は発売から遊び続け、そのプレイ時間は12年間で3000時間を突破！！",
-            imagePath: "./images/IMG_3733.jpg"
+            ttl: "3000時間プレイ",
+            txt: "『逃走中 史上最強のハンターたちからにげきれ』は発売から遊び続け、そのプレイ時間は12年間で3000時間を突破！！",
+            imgPath: "./images/IMG_3733.jpg"
         }
     ];
 
     data.forEach(item => {
         const c = createAndAppendElement('div', { class: 'cnt' }, parent);
         const i = createAndAppendElement('div', { class: 'inner' }, c);
-        const img = createAndAppendElement('img', { class: 'img', src: item.imagePath, alt: item.title }, i);
+        const img = createAndAppendElement('img', { class: 'img', src: item.imgPath, alt: item.ttl }, i);
         const desc = createAndAppendElement('div', { class: 'desc' }, i);
         
-        createAndAppendElement('h2', { class: 'ttl' }, desc, item.title);
-        createAndAppendElement('p', { class: 'txt' }, desc, item.text);
+        createAndAppendElement('h2', { class: 'ttl' }, desc, item.ttl);
+        createAndAppendElement('p', { class: 'txt' }, desc, item.txt);
     });
 }
 
