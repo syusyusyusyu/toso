@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/toso/static/css/main.04015f28.css",
+    "main.js": "/toso/static/js/main.4c00a876.js",
+    "static/js/453.2585f3fb.chunk.js": "/toso/static/js/453.2585f3fb.chunk.js",
+    "static/media/IMG_3611.png": "/toso/static/media/IMG_3611.a4cd7720a788f6f6fe10.png",
+    "index.html": "/toso/index.html",
+    "main.04015f28.css.map": "/toso/static/css/main.04015f28.css.map",
+    "main.4c00a876.js.map": "/toso/static/js/main.4c00a876.js.map",
+    "453.2585f3fb.chunk.js.map": "/toso/static/js/453.2585f3fb.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.04015f28.css",
+    "static/js/main.4c00a876.js"
+  ]
+}

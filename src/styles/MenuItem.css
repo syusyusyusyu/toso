@@ -1,0 +1,115 @@
+/* MenuItem.css */
+.cnt {
+    width: 100%;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .cnt:nth-child(even) {
+    background-color: #b5b6b7;
+  }
+  
+  .inner {
+    width: 90%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+  }
+  
+  .img {
+    width: 600px;
+    height: 375px;
+    max-width: 100%;
+    border-radius: 10px;
+    transition: opacity 1s ease-in-out;
+    opacity: 0;
+  }
+  
+  .desc {
+    width: 35%;
+    transition: opacity 1s ease-in-out, transform 1s ease-in-out;
+    opacity: 0;
+    transform: translateX(100%);
+  }
+  
+  .ttl {
+    font-size: 2.5em;
+    color: black;
+    margin-bottom: 10px;
+  }
+  
+  .txt {
+    font-size: 1.2em;
+    text-align: left;
+  }
+  
+  /* Smaller screen styles */
+  @media screen and (min-width: 482px) and (max-width: 1025px) {
+    .img {
+      width: 320px;
+      height: 220px;
+    }
+  
+    .desc {
+      width: 45%;
+    }
+  }
+  
+  @media screen and (max-width: 481px) {
+    .cnt {
+      height: 100vh;
+    }
+  
+    .inner {
+      flex-direction: column;
+    }
+  
+    .img {
+      width: 400px;
+      height: 250px;
+    }
+  
+    .desc {
+      width: 100%;
+      transform: translateX(100%); /* Animation initial state */
+    }
+  }
+  
+  /* Animation */
+  @keyframes floatInRight {
+    from {
+      opacity: 0;
+      transform: translateX(100%);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  
+  @keyframes floatInLeft {
+    from {
+      opacity: 0;
+      transform: translateX(-100%);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  
+  .anim-r {
+    animation: floatInRight 1s forwards;
+    opacity: 1;
+  }
+  
+  .anim-l {
+    animation: floatInLeft 1s forwards;
+    opacity: 1;
+  }
+  

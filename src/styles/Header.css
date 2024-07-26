@@ -1,0 +1,43 @@
+/* Header.css */
+.hdr {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+  
+  .main-img {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../components/images/IMG_3611.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .title-container {
+    color: #fff;
+    font-size: 2em;
+    text-align: center;
+    opacity: 0;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .title-container {
+      font-size: 1.75em;
+    }
+  }
+  
+  @media screen and (max-width: 481px) {
+    .title-container {
+      font-size: 1.5em;
+    }
+  }
+  
