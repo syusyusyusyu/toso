@@ -1,14 +1,17 @@
 {
   "files": {
     "main.css": "/toso/static/css/main.95e4f72f.css",
-    "main.js": "/toso/static/js/main.8638baee.js",
+    "main.js": "/toso/static/js/main.634818e6.js",
+    "static/media/IMG_3608.png": "/toso/static/media/IMG_3608.0d22e237559230028299.png",
+    "static/media/IMG_3733.jpg": "/toso/static/media/IMG_3733.f903906bccc1d6daaa60.jpg",
+    "static/media/IMG_3609.png": "/toso/static/media/IMG_3609.b52e2b80b721929df625.png",
     "static/media/IMG_3611.png": "/toso/static/media/IMG_3611.a4cd7720a788f6f6fe10.png",
     "index.html": "/toso/index.html",
     "main.95e4f72f.css.map": "/toso/static/css/main.95e4f72f.css.map",
-    "main.8638baee.js.map": "/toso/static/js/main.8638baee.js.map"
+    "main.634818e6.js.map": "/toso/static/js/main.634818e6.js.map"
   },
   "entrypoints": [
     "static/css/main.95e4f72f.css",
-    "static/js/main.8638baee.js"
+    "static/js/main.634818e6.js"
   ]
 }
